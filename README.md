@@ -1,76 +1,72 @@
 # ResuMe (Resume Classification)
 
-## Deskripsi Proyek
+## Project Description
 
-ResuMe adalah aplikasi berbasis web yang dikembangkan sebagai proyek akhir dalam program Magang dan Studi Independen Bersertifikat (MSIB) "Artificial Intelligence 4 Jobs" di Orbit Future Academy. Aplikasi ini menggunakan algoritma Naïve Bayes untuk mengklasifikasikan resume berdasarkan divisi tertentu guna membantu tim Human Resource (HR) dalam proses seleksi kandidat.
+ResuMe is a web-based application developed as a final project for the Certified Internship and Independent Study Program (MSIB) "Artificial Intelligence 4 Jobs" at Orbit Future Academy. This application utilizes the Naïve Bayes algorithm to classify resumes into specific divisions, assisting Human Resources (HR) teams in the candidate selection process.
 
-## Tujuan
+## Goals
 
-- Mengembangkan keterampilan dalam bidang Artificial Intelligence (AI) dengan penerapan praktis.
-- Mengimplementasikan model klasifikasi resume menggunakan pendekatan AI.
-- Meningkatkan efisiensi dan akurasi dalam seleksi kandidat kerja.
+- Develop practical skills in the field of Artificial Intelligence (AI).
+- Implement a resume classification model using an AI-based approach.
+- Improve efficiency and accuracy in the candidate selection process.
+  
+## Technologies Used
 
-## Teknologi yang Digunakan
+- **Python:** The primary programming language.
+- Flask: A web framework for building the application.
+- Naïve Bayes: The main algorithm for resume classification.
+- NLTK: For text preprocessing.
+- TF-IDF: For text feature extraction.
+- Ngrok: For public network access.
 
-- **Python**: Digunakan sebagai bahasa pemrograman utama.
-- **Flask**: Framework web untuk membangun aplikasi berbasis web.
-- **Naïve Bayes**: Algoritma utama dalam klasifikasi resume.
-- **NLTK**: Untuk preprocessing teks.
-- **TF-IDF**: Untuk ekstraksi fitur dari teks.
-- **Ngrok**: Untuk mengakses aplikasi melalui jaringan publik.
+## Key Features
 
-## Fitur Utama
-
-- **Upload Resume**: Pengguna dapat mengunggah resume dalam format PDF.
-- **Klasifikasi Otomatis**: Resume dikategorikan ke dalam enam divisi:
-  - Accounting
+- **Resume Upload:** Users can upload resumes in PDF format.
+- **Automatic Classification:** Resumes are categorized into six divisions:
   - Business Development
   - Digital Media
   - Engineering
   - Human Resource
   - Sales
-- **Evaluasi Model**: Menggunakan Confusion Matrix, Precision, Recall, dan F1-Score.
-- **Web-Based Interface**: Antarmuka berbasis web menggunakan Flask.
+- **Model Evaluation:** Using Confusion Matrix, Precision, Recall, and F1-Score.
+- **Web-Based Interface:** A user-friendly interface built with Flask.
 
-## Instalasi dan Penggunaan
+## Installation and Usage
 
 1. **Clone Repository**
    ```bash
    git clone https://github.com/username/resume-classification.git
    cd resume-classification
    ```
-2. **Instalasi Dependensi**
+2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Menjalankan Aplikasi**
+3. **Run the Application**
    ```bash
    python app.py
    ```
-4. **Menggunakan Ngrok untuk Akses Publik**
+4. **Use Ngrok for Public Access**
    ```bash
    ngrok http 5000
    ```
-5. **Akses Aplikasi** Buka browser dan akses `http://127.0.0.1:5000` atau gunakan URL yang diberikan oleh Ngrok.
+5. **Access the Application**
+   Open a browser and visit http://127.0.0.1:5000 or use the URL provided by Ngrok.
 
 ## Dataset
 
-Dataset yang digunakan berasal dari Kaggle dengan total 677 entri yang mencakup enam kategori resume.
+The dataset used is sourced from Kaggle, consisting of 677 entries across six resume categories.
 
-## Evaluasi Model
+## Model Evaluation
+- Model Accuracy: 83%
+- Confusion Matrix: Used to assess classification performance.
+- Evaluation Metrics: Precision, Recall, and F1-Score.
 
-- **Akurasi Model**: 83%
-- **Confusion Matrix**: Digunakan untuk mengevaluasi performa klasifikasi.
-- **Metode Evaluasi**: Precision, Recall, dan F1-Score.
+## Developer
 
-## Pengembang
-
-**Ahmad Muyaqi**\
-Magang & Studi Independen Bersertifikat - Orbit Future Academy\
+Ahmad Muyaqi
 Universitas Negeri Semarang
 
-
-## Kontak
-
-Jika ada pertanyaan atau saran, silakan hubungi melalui email: (muyaqiahmad@gmail.com) atau kunjungi LinkedIn: https://www.linkedin.com/in/ahmadmuyaqi/.
+## Contact
+For any inquiries or suggestions, feel free to contact LinkedIn: https://www.linkedin.com/in/ahmadmuyaqi/.
 
