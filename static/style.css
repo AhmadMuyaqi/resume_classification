@@ -1,0 +1,305 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins';
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 40px;
+  width: bold;
+  float: left;
+  font-family: 'Poppins';
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: rgb(79, 207, 62);
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: dotted;
+  color: black;
+  transition: 0.2s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.a-navbar {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.container {
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.wrapper-home {
+  display: flex;
+}
+.img-home {
+  height: 400px;
+  width: 400px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+section {
+  margin: auto;
+}
+
+#About {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.kolom {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.kolom h2 {
+  line-height: 60px;
+}
+.kolom p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-weight: 800px;
+  font-size: 45px;
+  margin-bottom: 30px;
+  width: 70%;
+  line-height: 50px;
+}
+
+.deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.tentang {
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.h2-about {
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+
+.img-about {
+  width: 40%;
+  height: 40%;
+  margin-top: 80px;
+}
+
+.container-upload {
+  height: 100vh;
+}
+
+.wrapper-upload {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 100px;
+}
+form {
+  background-color: rgb(79, 207, 62);
+  padding: 50px;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-top: 150px;
+}
+
+.prediksi-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(5, 5, 5);
+  color: aliceblue;
+  box-shadow: 0 0 2px #2b2929;
+}
+
+.prediksi-button:hover {
+  background-color: rgb(250, 252, 250);
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px #2b2929;
+}
+
+.hasil-prediksi {
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-weight: 100;
+  padding: 100px;
+  margin-top: 50px;
+}
+
+#result_text {
+  background-color: rgb(79, 207, 62);
+  padding: 20px;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#result_value {
+  margin: auto;
+  padding-left: 20px;
+}
+
+.container-team {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.head-team {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.head-team2 {
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  margin-right: 20px;
+}
+
+.Team {
+  margin-left: 45%;
+}
+
+.wrapper-team {
+  transition: 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foto-yaqi {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 60px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(79, 207, 62);
+}
+
+.foto-yaqi:hover {
+  border-color: black;
+  box-shadow: 0 0 10px #39a130;
+}
+
+.foto-yaqi1 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 70px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(79, 207, 62);
+}
+
+.foto-yaqi1:hover {
+  border-color: black;
+  box-shadow: 0 0 10px #39a130;
+}
+
+.foto-yaqi2 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(79, 207, 62);
+}
+
+.foto-yaqi2:hover {
+  border-color: black;
+  box-shadow: 0 0 10px #39a130;
+}
+
+.foto-yaqi3 {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 50px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(79, 207, 62);
+}
+
+.foto-yaqi3:hover {
+  border-color: black;
+  box-shadow: 0 0 10px #39a130;
+}
+
+.nama {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.nama1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: -30px;
+}
+
+.univ1 {
+  margin-left: -20px;
+}
